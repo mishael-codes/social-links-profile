@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, "sans-serif";
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+}
+:root {
+  --green: hsl(75, 94%, 57%);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 25px;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.container {
+  width: 100%;
+  height: fit-content;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 12%);
+}
+
+.hero {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+h3 {
+  color: var(--green);
+  margin: 7px 0 12px 0;
+}
+
+p {
+  font-weight: 400;
+}
+
+ul {
+  margin-top: 40px;
+}
+
+ul li {
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+  border-radius: 7px;
+  font-weight: 600;
+  background-color: hsl(0, 0%, 20%);
+}
+
+ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+li > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  border-radius: 7px;
+  text-decoration: none;
+  text-align: center;
+  transition: .5s;
+}
+
+li > a:visited {
+  color: hsl(0, 0%, 100%);
+}
+
+li > a:hover,
+li > a:active {
+  color: hsl(0, 0%, 12%);
+  background-color: var(--green);
+}
+
+.attribution {
+  margin-top: 10px;
+}
+
+.attribution a {
+  color: var(--green);
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 375px;
+  }
+}
