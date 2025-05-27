@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/screenshot/screenshot.png)
+![](/assets/screenshots/screenshot.png)
 
 ### Links
 
@@ -34,14 +34,13 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 - Mobile-first workflow
 - [Inter Google Font](https://fonts.google.com/specimen/Inter)
 
 ## Author
 
-- Website - [Mishael Enyi](https://mishaelenyi.vercel.app)
-- Frontend Mentor - [@mishaelcodes](https://www.frontendmentor.io/profile/mishaelcodes)
-- Twitter - [@mishael_codes](https://twitter.com/mishael_codes)
+- X - [@mishael_codes](https://x.com/mishael_codes)
+- Website - [Mishael Enyi](https://mishaelenyi.netlify.app)
 - Instagram - [@mishael_codes](https://www.instagram.com/mishael_codes/)
+- Frontend Mentor - [@mishael-codes](https://www.frontendmentor.io/profile/mishael-codes)
